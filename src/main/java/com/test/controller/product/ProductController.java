@@ -83,7 +83,7 @@ public class ProductController {
 	
 	@GetMapping(path = "/list/{id}")
 	public ProductDTO list(@PathVariable("id") int id) {
-		return null;
+		return null; //return stmt
 	}
 	
 	
